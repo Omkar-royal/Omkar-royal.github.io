@@ -452,8 +452,14 @@ h6 {
 .work-section .project-card.project-card-height {
   height: auto;
 }
+.eye {
+  display: none;
+}
 .work-section .project-card:hover {
   transform: scale(1.02);
+  .eye {
+    display: inline;
+  }
 }
 .work-section .project-card .project-img img {
   max-height: 500px;
